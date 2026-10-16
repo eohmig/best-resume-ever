@@ -1,98 +1,84 @@
 /* #*/ export const PERSON = `
-# Any fields left unchanged, please delete so your resume is fully yours!
-
 name:
-  first: John
+  first: Khaw
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
-
-birth:
-  year: 1990
-  location: New York
-
-# you may add more experiences by duplicating the template
+  last: Gim Hoe
+about: Global Account Manager with 13+ years experience managing high-value accounts across APAC region. Proven track record of achieving sales targets through structured cabling solutions and data infrastructure design. Strong background in multi-tenant data centers, strategic account development, and client relationship management.
+position: Global Account Manager
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: CommScope
+  position: Global Account Manager
+  timeperiod: Mar 2011 - Present
+  description: Managed a portfolio of high-value accounts across diverse industries within the APAC region. Achieved consistent sales target exceedances by delivering reliable, high-performance structured cabling solutions that meet evolving client needs. Built strong, long-term relationships with key clients through exceptional customer service and value-added services. Leveraged expertise in copper and fiber optic solutions to design and implement scalable and efficient data infrastructure for Multi-Tenant Data Center (MTDC) clients. Developed and executed strategic initiatives to ensure client success in the fast-paced tech landscape. Managed Malaysia-based quota with exceptional results, demonstrating a deep understanding of the local market and its specific demands.
+  website: https://www.commscope.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: iNETest
+  position: Assistant Sales Manager
+  timeperiod: Mar 2007 - Mar 2011
+  description: Responsibilities for account management, customer relationship building, and sales plan implementation and new account development. Managed sales activities and pursued sales opportunities to meet business goals and targets. Delivered product/solution presentation and demonstration to customers. Ensured a high degree of customer satisfaction and loyalty.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: TDK-Lambda
+  position: Sales Engineer
+  timeperiod: Apr 2006 - Feb 2007
+  description: Identified prospective customers and secured new accounts, overseeing Malaysia region except SATO and DENSO. Achieved individual and group target revenue. Country (Malaysia) Budget Preparation. Managed, supported and serviced existing customers and distributors. Identified customer needs and requirements. Explored and developed new business opportunities for continuous growth.
+
+- company: MK Electric
+  position: Project Sales Engineer
+  timeperiod: Nov 2005 - Mar 2006
+  description: Worked closely with M&E Consultants, contractors, developers, interior designers and architects to get project specified. Ensured that project pipeline sales targets were achieved or exceeded. Stayed abreast of market and competitor activity and provided accurate project forecasting. Developed new business opportunities and strategy in Residential and Commercial market segments. Cooperated fully and supported other functional departments such as marcoms, logistics, commercial, and finance as required.
+
+- company: TekMark
+  position: Sales & Application Engineer
+  timeperiod: Jul 2003 - Nov 2005
+  description: Achieved individual sales targets. Provided best pre and post-sales support to sales team to ensure customer satisfaction. Covered wide and deep for given sales territory and products. Explored new customers to increase market share. Responded to customer enquiries and attended to customer problems in the shortest time. Built up good relationships with customers to enhance retention. Creative in handling customer enquiries and ultimately generated more sales revenue. Provided Pre and Post sales support such as: demonstration, application requirement, presentation, product training, testing, etc. Assisted in tender preparation for technical aspects. Carried out extra or assumed any other responsibilities assigned from time to time.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Bachelor of Electrical & Electronics Engineering (Second Upper)
+  timeperiod: 1999 - 2003
+  description: Universiti Tenaga Nasional
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Malaysian High School (Ministry-type)
+  timeperiod: 1993 - 1998
+  description: Chung Ling High School
 
-# skill level goes from 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
+- name: Project Management
+  level: 90
+- name: Business Strategy
+  level: 90
+- name: Sales Enablement
   level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Channel Sales
+  level: 90
+- name: Sales and Marketing
+  level: 95
+- name: Data Center Management
+  level: 92
+- name: Communication
+  level: 95
+- name: Salesforce.com
+  level: 88
+- name: Strategic Account Development
+  level: 95
+- name: Partner Relationship Management
+  level: 90
+- name: Territory Account Management
+  level: 92
+- name: Structured Cabling (Copper & Fiber Optic)
+  level: 90
+- name: Multi-Tenant Data Center Design
+  level: 88
+- name: Solution Presentation
+  level: 92
+- name: Tender Preparation
+  level: 85
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-# optional, not all resume templates have hobbies included
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+knowledge: Certified Data Centre Expert, Certified Data Centre Specialist, Certified Data Center Professional.
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+  email: ghkhaw@yahoo.com
+  phone: +60-12-370-1559
+  linkedin: gimhoe
 lang: en
 `
